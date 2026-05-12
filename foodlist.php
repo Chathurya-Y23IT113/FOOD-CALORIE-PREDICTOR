@@ -42,7 +42,7 @@ input[type=number] { width:60px; margin-left:6px; }
 </head>
 <body>
 <div class="container">
-  <!-- Left Panel: User Info & Categories -->
+  
   <div class="card">
     <h2>User Info</h2>
     <label>Age: <input type="number" id="age" value="25"></label><br><br>
@@ -72,7 +72,7 @@ input[type=number] { width:60px; margin-left:6px; }
     <p class="muted">Click a category to filter foods. Click a food to add to meal.</p>
   </div>
 
-  <!-- Right Panel: Food List, Meals, Charts -->
+  
   <div class="card">
     <h1>Food List</h1>
     <div class="meal-selector">
@@ -404,7 +404,7 @@ document.querySelectorAll(".cat").forEach(el=>{
 renderList();
 calculateBMR();
 </script>
-    <!-- Redirect Button -->
+    
     <div style="text-align:center; margin:30px 0;">
       <button onclick="window.location.href='dashboard.php'" 
               style="padding:10px 20px; border:none; border-radius:8px; background:var(--accent); color:#fff; font-size:16px; cursor:pointer;">
